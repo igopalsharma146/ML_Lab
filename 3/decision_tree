@@ -1,0 +1,17 @@
+digraph {
+	1934876907456 [label=Outlook]
+	1934876908224 [label="Class: yes, Weight: 4" shape=box]
+	1934876907456 -> 1934876908224 [label=overcast]
+	1934868150992 [label=Humidity]
+	1934876907456 -> 1934868150992 [label=sunny]
+	1933403062240 [label="Class: no, Weight: 3" shape=box]
+	1934868150992 -> 1933403062240 [label=high]
+	1934757919728 [label="Class: yes, Weight: 2" shape=box]
+	1934868150992 -> 1934757919728 [label=normal]
+	1934757914304 [label=Wind]
+	1934876907456 -> 1934757914304 [label=rain]
+	1934757917232 [label="Class: yes, Weight: 3" shape=box]
+	1934757914304 -> 1934757917232 [label=weak]
+	1934757919584 [label="Class: no, Weight: 2" shape=box]
+	1934757914304 -> 1934757919584 [label=strong]
+}
